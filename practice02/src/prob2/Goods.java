@@ -32,4 +32,8 @@ public class Goods {
 	public int getCount(){
 		return this.count;
 	}
+	
+	public void show(){
+		System.out.println(name + "(가격: " + cost + "원)이 " + count + "개 입고 되었습니다.");
+	}
 }
